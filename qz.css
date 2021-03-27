@@ -1,0 +1,79 @@
+	.jk{
+			display: block;
+			margin-top: 30px;
+
+		}
+		.qs{
+			display: flex;
+	margin-top: 10px;
+		}
+		.rt{
+	/*	visibility: hidden;*/
+	text-align: center;
+			background-color: white;
+			width: 35%;
+			padding: 30px;
+
+			position: fixed;
+			left: 30%;
+			top: 80px;
+			box-shadow: 20px 20px 10px black;
+			z-index: 12;
+		}
+		.jk input:focus{
+			background-color: pink;
+			border-bottom: 3px solid red;
+		}
+		label{
+			  font-weight: bold;
+			  margin: 10px;
+			 color: black;
+		}
+		h5{
+			color: black;
+		}
+		input{
+
+			width: 50%;
+			padding: 13px;
+			border: none;
+			border-bottom: 3px solid green;
+		}
+		#yy{
+			visibility: hidden;
+		}
+		.th:hover{
+			background-color: rgb(64, 191, 64);
+		}
+		.fh:hover{
+			background-color:rgb(255, 102, 102);
+		}
+			.th{
+				margin-top: 10px;
+		/*		position: relative;*/
+		/*		left: 250px;*/
+				width: 90px;
+				color: white;
+				border: none;
+				background-color: green;
+				 font-weight: bold;
+			}
+			.fh{ font-weight: bold;
+		/*		position: relative;*/
+				color: white;
+				border: none;
+				background-color: red;
+			/*	left: 60px;*/
+			padding: 13px;
+				width: 90px;
+			}
+			.modal{
+				display: none;
+				width: 100%; /* Full width */
+           height: 100%;
+  background-color: rgba(0,0,0,0.6);
+	position: fixed; /* Stay in place */
+     z-index: 1; /* Sit on top */
+     left: 0;
+     top: 0;
+			}

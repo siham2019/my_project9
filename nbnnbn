@@ -1,0 +1,15 @@
+SELECT * FROM `effectuer` INNER JOIN surveiller on effectuer.id_h = surveiller.id_h inner JOIN enseignant ON surveiller.id_e = surveiller.id_e
+
+
+while foga 
+
+salle 
+enseignant
+
+SELECT * FROM `etudiant` INNER join groupe on groupe.idG = etudiant.idG INNER JOIN section on section.id_section = groupe.id_section INNER JOIN faire_examen on faire_examen.num_ins = etudiant.num_ins and faire_examen.id_l = '3' INNER join niveau_de_formation on niveau_de_formation.id_n = '1' AND niveau_de_formation.id_n = section.id_n
+while
+etudiant groupe
+
+
+
+

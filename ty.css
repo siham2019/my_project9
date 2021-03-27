@@ -1,0 +1,14 @@
+	body{
+		margin: 0;
+ background-color: #f2f4f6;
+		background-image: none;
+	}
+.head{
+	background-color: black;
+}
+.tt{
+	display: flex;
+}
+.tru{
+	margin: 70px;
+}

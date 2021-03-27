@@ -1,0 +1,69 @@
+table {
+margin-top:  40px;
+width: 100%;
+  text-align: center;
+
+  border-collapse: collapse;
+}
+th,td{
+
+
+  padding: 9px;
+}
+#at{
+  width: 200px;
+}
+#s{
+    background-color: red;
+    border: none;
+}
+#ml{
+  background-color: #0077b5;
+
+}
+#rsw{
+  background-color: #1edb6e;
+    padding: 9px;
+float: right;
+
+}
+.df > label{
+  font-weight: bold;
+  font-size: 19px;
+  margin:10px 5px 0 0;
+}
+.df > input{
+  padding: 5px;
+  height: 25px;
+   margin:3px 5px 0 0;
+  border-radius: 15px;
+}
+.df > input:focus{
+
+  background-color: pink;
+  border:1px solid red;
+}
+ .df{
+  margin-bottom: 15px;
+    float: right;
+  display: flex;
+ }
+.io a,.io button{
+    border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+  font-size: 16px;
+  font-family: 'Crimson Text', serif;
+    margin:  5px;
+
+}
+.io{
+  color: black;
+  background-color: white;
+  padding: 10px;
+  padding-bottom: 30px;
+  margin: 40px;
+  border-radius: 5px;
+
+}

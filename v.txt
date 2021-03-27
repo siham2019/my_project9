@@ -1,0 +1,3 @@
+ <select id="level" name="level" onchange="ajax_request(event,'section','ids','noms',false,false)">
+<select id="section" name="section" onchange="ajax_request(event,'groupe','idG','nomG',true,false)">
+<select id="groupe" name="group">
