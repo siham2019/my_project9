@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1
--- Généré le :  lun. 26 avr. 2021 à 15:33
+-- Généré le :  lun. 28 juin 2021 à 20:02
 -- Version du serveur :  10.4.8-MariaDB
 -- Version de PHP :  7.3.11
 
@@ -255,7 +255,7 @@ INSERT INTO `module` (`id_module`, `nom_module`, `id_e`, `id_n`, `id_h`, `id_p`)
 (38, 'big data', 'WX12', 6, 118, 50),
 (39, 'prolog', 'WX12', 1, 0, NULL),
 (40, 'systeme d\'information', NULL, 1, 0, NULL),
-(41, 'anglais', NULL, 4, 0, 48),
+(41, 'anglais', NULL, 4, 0, NULL),
 (42, 'anglais', 'MS31', 6, 119, 51),
 (44, 'aze', NULL, 1, 0, NULL);
 
@@ -479,7 +479,7 @@ ALTER TABLE `niveau_de_formation`
 -- AUTO_INCREMENT pour la table `periode_examen`
 --
 ALTER TABLE `periode_examen`
-  MODIFY `id_p` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=52;
+  MODIFY `id_p` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=53;
 
 --
 -- AUTO_INCREMENT pour la table `section`
